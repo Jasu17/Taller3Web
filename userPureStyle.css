@@ -1,0 +1,18 @@
+#formulario{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: center;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(113, 179, 255);
+}
