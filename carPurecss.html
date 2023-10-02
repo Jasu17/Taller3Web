@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>car_PureCss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link href="./purecssStyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <h1>Datos del vehiculo</h1>
+  <div id="formulario">
+  <form class="pure-form">
+    <fieldset>
+    </fieldset>
+    <fieldset>
+      <select id="combustible" name="combustible">
+        <option>Tipo de Combustible</option>
+        <option value="diesel">Diesel</option>
+        <option value="gasolina">Gasolina</option>
+        <option value="electrico">Electricidad</option>
+      </select>
+      <select id="tipo" name="tipo">
+        <option >Tipo de carro</option>
+        <option value="deportivo">Deportivo</option>
+        <option value="sedan">Sedan</option>
+        <option value="camioneta">Camioneta</option>
+        <option value="furgoneta">Furgoneta</option>
+    </select>
+    </fieldset>
+    <fieldset>
+      <select name="estado" id="estado">
+        <option>Estado</option>
+      </select>
+      <select name="marca" id="marca">
+        <option>Marca</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <select name="usuario" id="usuario">
+        <option value="">Usuario</option>
+      </select>
+      <input type="text" placeholder="Modelo"/>
+    </fieldset>
+    <fieldset>
+      <input type="number" placeholder="Anio"/>
+      <input type="text" placeholder="Detalle"/>
+    </fieldset>
+    <fieldset>
+      <input type="text" placeholder="Caja"/>
+      <input type="text" placeholder="Motor"/>
+    </fieldset>
+    <fieldset>
+    <input type="date"> Fecha publicacion
+    </fieldset>
+    <fieldset>
+      <input type="number" placeholder="precio"/>
+      <input type="text" placeholder="Moneda"/>
+    </fieldset>
+    <fieldset>
+      <input type="text" placeholder="Detalle 01"/>
+      <input type="text" placeholder="Detalle 02"/>
+    </fieldset>
+    <fieldset>
+      <input type="text" placeholder="Detalle 03"/>
+      <input type="text" placeholder="Destacado"/>
+    </fieldset>
+    <button type="submit" class="pure-button pure-button-primary" id="registrar">Registrarse</button>
+</form>
+</div>
+
+</body>
+</html>
