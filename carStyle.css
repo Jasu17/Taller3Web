@@ -1,0 +1,49 @@
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+
+html {
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #707070;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(235, 235, 235);
+color: aliceblue;
+}
+
+#direccion, #nombre, #apellido, #usuario, #password, #email, #telefono{
+width: 100px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    text-decoration-color: #ffffff;
+    background-image: -webkit-linear-gradient(top, #0012b6, #b30101);
+  background-image: -moz-linear-gradient(top, #0012b6, #b30101);
+  background-image: -ms-linear-gradient(top, #0012b6, #b30101);
+  background-image: -o-linear-gradient(top, #0012b6, #b30101);
+  background-image: linear-gradient(to bottom, #0012b6, #b30101);
+    -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 19px;
+  text-decoration: none;
+    
+}
